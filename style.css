@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+/* Navbar srart */
+.navbar{
+    background-color: rgb(177, 230, 225);
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Lobster', cursive;
+    
+    letter-spacing: .1em;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.navbar-toggler{
+    color: black;
+}
+.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.nav-link:hover{
+    color: rgb(248, 26, 92);
+    border-bottom: 1px solid black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(248, 26, 92);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    border-radius: 60px;
+    transition: 0.4s;
+}
+.btn0:hover{
+    background-color: rgb(221, 13, 75);
+}
+/* Navbar end */
+
+/* Main section */
+#main{
+    background: url(/img/lunchcopy.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+#main h1{
+    font-size: 4rem;
+    font-weight: 540;
+    font-family: sans-serif;
+}
+.btn1{
+    height: 45px;
+    width: 30%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    transition: 0.4s;
+}
+.btn1:hover{
+    background-color: rgb(221, 8, 72);
+}
+/* main section end */
+
+/* product section */
+h1{
+    font-weight: 700;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgb(0,0,0,0.75);
+    transition: 0.5s;
+    
+}
+
+/* apple class */
+#apple{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)), url(/img/red.jpg) no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    
+}
+#apple h1{
+    font-family: 'Lobster', cursive;
+    color: yellow;
+}
+
+/* footer section */
+#news{
+    background-color: black;
+    color: white;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+}
+.btn2:hover{
+    transition: 0.5s;
+    color: black;
+    background: rgb(248, 26, 92);
+}
+#news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    background: black;
+    color: white;
+    outline: none;
+    margin-top: 20px;
+    font-weight: 600;
+}
+#news p{
+    margin: 0;
+}
+.fab{
+    font-size: 1.8rem;
+    cursor: pointer;
+    padding-right: 4px;
+}
+.fab:hover{
+    color: rgb(248, 26, 92);
+}
